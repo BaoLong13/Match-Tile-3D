@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\BLong\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\BLong\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Match Tile 3D.-854484342.00" t="ExcludeRecursive" />
+    <e p="C:\Users\BLong\Documents\GitHub\Match Tile 3D" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="LowlyPoly" t="Include">
+          <e p="Stylized Grass Texture" t="Include">
+            <e p="Materials" t="Include" />
+            <e p="Scene" t="Include" />
+            <e p="Textures" t="Include" />
+          </e>
+        </e>
+        <e p="MahjongTiles" t="Include">
+          <e p="Materials" t="Include" />
+          <e p="Models" t="Include" />
+          <e p="Prefabs" t="Include">
+            <e p="Bams" t="Include" />
+            <e p="Craks" t="Include" />
+            <e p="Dots" t="Include" />
+            <e p="Dragons" t="Include" />
+            <e p="Flowers" t="Include" />
+            <e p="Seasons" t="Include" />
+            <e p="Winds" t="Include" />
+          </e>
+          <e p="ReadMe" t="Include">
+            <e p="ReadMe.txt" t="Include" />
+          </e>
+          <e p="Scene" t="Include" />
+          <e p="Textures" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="Tile" t="Include" />
+        </e>
+        <e p="Scenes" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="Tile.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Match Tile 3D.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
