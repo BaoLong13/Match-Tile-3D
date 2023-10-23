@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6791f5b5-8566-4f54-a1cc-eee0d8c86b91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Match Tile 3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Match Tile 3D/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
               <folding>
                 <marker date="1698071404123" expanded="false" signature="6:92" ph="..." />
                 <marker date="1698071404123" expanded="true" signature="134:1407" ph="{...}" />
@@ -165,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="20" />
     <option name="y" value="105" />
     <option name="width" value="1940" />
@@ -245,12 +245,12 @@
       <workItem from="1697882303811" duration="749000" />
       <workItem from="1697974797955" duration="12687000" />
       <workItem from="1698039179084" duration="8754000" />
-      <workItem from="1698071326052" duration="1377000" />
+      <workItem from="1698071326052" duration="1971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49987000" />
+    <option name="totallyTimeSpent" value="50581000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,8 +262,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17370892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -494,7 +493,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="28" column="44" lean-forward="true" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
           <folding>
             <marker date="1698071404123" expanded="false" signature="6:92" ph="..." />
             <marker date="1698071404123" expanded="true" signature="134:1407" ph="{...}" />
