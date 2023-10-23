@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6791f5b5-8566-4f54-a1cc-eee0d8c86b91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Match Tile 3D/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Match Tile 3D/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LowlyPoly/Stylized Grass Texture/Materials/Stylize_Grass_diffuse.mat.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -245,12 +247,12 @@
       <workItem from="1697882303811" duration="749000" />
       <workItem from="1697974797955" duration="12687000" />
       <workItem from="1698039179084" duration="8754000" />
-      <workItem from="1698071326052" duration="1971000" />
+      <workItem from="1698071326052" duration="2390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50581000" />
+    <option name="totallyTimeSpent" value="51000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
