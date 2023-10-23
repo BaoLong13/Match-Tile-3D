@@ -180,7 +180,7 @@ public class TileController : MonoBehaviour
                                 slotPosition[i - 3].transform.position.y, slotPosition[i - 3].transform.position.z), 0.2f).OnComplete(
                             () =>
                             {
-                                DOVirtual.DelayedCall(0.25f, () =>
+                                DOVirtual.DelayedCall(0.3f, () =>
                                 {
                                     isMoving = false;
                                 });
