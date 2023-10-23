@@ -8,22 +8,6 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Fantasy Wooden GUI  Free" t="Include">
-          <e p="normal_ui_set A" t="Include" />
-        </e>
-        <e p="FreeButtonSet" t="Include">
-          <e p="Fonts" t="Include" />
-          <e p="Textures" t="Include">
-            <e p="buttons" t="Include" />
-            <e p="controls" t="Include" />
-            <e p="icons" t="Include">
-              <e p="128x128" t="Include" />
-              <e p="256x256" t="Include" />
-              <e p="32x32" t="Include" />
-              <e p="64x64" t="Include" />
-            </e>
-          </e>
-        </e>
         <e p="LowlyPoly" t="Include">
           <e p="Free" t="Include">
             <e p="Wooden Floor Pack" t="Include">
@@ -77,6 +61,7 @@
         </e>
         <e p="Resources" t="Include">
           <e p="Tile" t="Include" />
+          <e p="UI" t="Include" />
         </e>
         <e p="Scenes" t="Include" />
         <e p="Scriptable" t="Include" />

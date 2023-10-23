@@ -35,9 +35,11 @@ public class GameManager : MonoBehaviour
                 {
                     UpdateGameState(GameState.End);
                 }
+                _tileController.ClearSlot();
                 _tileController.GenerateTile(currLevelID);
                 break;
             case GameState.End:
+                _tileController.ClearSlot();
                 _tileController.GenerateTile(1);
                 break;
         }

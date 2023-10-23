@@ -238,9 +238,12 @@ public class TileController : MonoBehaviour
     {
         for (int i = 0; i < slotPosition.Length; ++i)
         {
-            Destroy(slotPosition[i].occupiedTile.gameObject);
-            slotPosition[i].occupiedTile = null;
-            slotPosition[i].isEmpty = true;
+            if (slotPosition[i].occupiedTile != null)
+            {
+                Destroy(slotPosition[i].occupiedTile.gameObject);
+                slotPosition[i].occupiedTile = null;
+                slotPosition[i].isEmpty = true;
+            }
         }
     }
     
