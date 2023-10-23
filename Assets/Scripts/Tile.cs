@@ -8,12 +8,13 @@ public class Tile : MonoBehaviour
 {
    public string TileName;
    public Rigidbody rigidBody;
-   private bool isClicked = false;
+   public bool isClicked = false;
 
    private void Start()
    {
       rigidBody = GetComponent<Rigidbody>();
-      rigidBody.freezeRotation = false;
+      rigidBody.isKinematic = true;
+      rigidBody.freezeRotation = true;
    }
 
    private void OnMouseDown()
