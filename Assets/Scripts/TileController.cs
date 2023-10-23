@@ -143,7 +143,7 @@ public class TileController : MonoBehaviour
 
     private void MatchLogic(int index)
     {
-        DOVirtual.DelayedCall(0.1f, () =>
+        DOVirtual.DelayedCall(0.2f, () =>
             {
                 MatchAnim(index);
                 DOVirtual.DelayedCall(0.1f, () =>
