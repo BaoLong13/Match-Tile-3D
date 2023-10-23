@@ -128,5 +128,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TileName: Dragon
-  rigidBody: {fileID: 0}
-  isClicked: 0
