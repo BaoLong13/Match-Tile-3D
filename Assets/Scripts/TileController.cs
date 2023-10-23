@@ -78,7 +78,7 @@ public class TileController : MonoBehaviour
                                         tile.transform.DOMove(new Vector3(slotPosition[i - k].transform.position.x, slotPosition[i - k].transform.position.y, slotPosition[i - k].transform.position.z), 0.1f).OnComplete(
                                             () =>
                                             {
-                                                DOVirtual.DelayedCall(0.05f, () =>
+                                                DOVirtual.DelayedCall(0.25f, () =>
                                                 {
                                                     isMoving = false;
                                                 });
@@ -88,7 +88,7 @@ public class TileController : MonoBehaviour
                                         if (MatchCheck(i - k))
                                         { 
                                             MatchLogic(i - k);
-                                            DOVirtual.DelayedCall(0.55f, () => { TileShift(i - k + 1); });
+                                            DOVirtual.DelayedCall(0.4f, () => { TileShift(i - k + 1); });
                                         }
                                         else
                                         {
@@ -114,7 +114,7 @@ public class TileController : MonoBehaviour
                     new Vector3(slotPosition[i].transform.position.x, slotPosition[i].transform.position.y,
                         slotPosition[i].transform.position.z), 0.1f).OnComplete(() =>
                 {
-                    DOVirtual.DelayedCall(0.05f, () =>
+                    DOVirtual.DelayedCall(0.25f, () =>
                     {
                         isMoving = false;
                     });
@@ -143,10 +143,10 @@ public class TileController : MonoBehaviour
 
     private void MatchLogic(int index)
     {
-        DOVirtual.DelayedCall(0.2f, () =>
+        DOVirtual.DelayedCall(0.1f, () =>
             {
                 MatchAnim(index);
-                DOVirtual.DelayedCall(0.3f, () =>
+                DOVirtual.DelayedCall(0.1f, () =>
                 {
                     Destroy(slotPosition[index].occupiedTile.gameObject);
                     slotPosition[index].occupiedTile = null;
@@ -180,7 +180,7 @@ public class TileController : MonoBehaviour
                                 slotPosition[i - 3].transform.position.y, slotPosition[i - 3].transform.position.z), 0.2f).OnComplete(
                             () =>
                             {
-                                DOVirtual.DelayedCall(0.05f, () =>
+                                DOVirtual.DelayedCall(0.25f, () =>
                                 {
                                     isMoving = false;
                                 });
@@ -225,11 +225,11 @@ public class TileController : MonoBehaviour
 
     private void MatchAnim(int currIndex)
     {
-        slotPosition[currIndex].occupiedTile.transform.DOScale(0, 0.2f).OnStart(() =>
+        slotPosition[currIndex].occupiedTile.transform.DOScale(0, 0.1f).OnStart(() =>
             {
-                slotPosition[currIndex - 1].occupiedTile.transform.DOScale(0, 0.2f).OnStart(() =>
+                slotPosition[currIndex - 1].occupiedTile.transform.DOScale(0, 0.1f).OnStart(() =>
                     {
-                        slotPosition[currIndex - 2].occupiedTile.transform.DOScale(0, 0.2f);
+                        slotPosition[currIndex - 2].occupiedTile.transform.DOScale(0, 0.1f);
                     });
             });
     }
@@ -246,6 +246,7 @@ public class TileController : MonoBehaviour
     
     public void GenerateTile(int levelID)
     {
+        isMoving = false;
         if (levelID > _levelDatas.Length)
         {
             return;
